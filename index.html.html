@@ -923,54 +923,48 @@
             font-size: 0.95rem;
         }
 
-        .founders-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 3rem;
-            margin-top: 3rem;
-        }
+       .founders-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
 
-        .founder-profile {
-            text-align: center;
-        }
+.founder-profile {
+    text-align: center;
+}
 
-        .founder-image {
-            width: 250px;
-            height: 250px;
-            background: linear-gradient(135deg, var(--secondary), var(--accent));
-            border-radius: 50%;
-            margin: 0 auto 2rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 4rem;
-            font-family: 'Playfair Display', serif;
-            font-weight: 700;
-            box-shadow: 0 8px 20px rgba(139, 115, 85, 0.2);
-        }
+.founder-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto 2rem;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 20px rgba(139, 115, 85, 0.2);
+}
 
-        .founder-name {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            color: var(--primary);
-            margin-bottom: 0.5rem;
-        }
+.founder-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
 
-        .founder-title {
-            color: var(--accent);
-            font-weight: 600;
-            margin-bottom: 1.5rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            font-size: 0.9rem;
-        }
+.founder-title {
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+}
 
-        .founder-bio {
-            color: var(--text-light);
-            line-height: 1.8;
-            font-size: 0.95rem;
-        }
+.founder-bio {
+    color: var(--text-light);
+    line-height: 1.8;
+    font-size: 0.95rem;
+}
 
         /* Contact Form */
         .form-container {
@@ -1745,18 +1739,14 @@
                     </p>
                 </div>
 
-                <div class="founder-profile">
-                    <img src="TLN pic.jpg" alt="Founder photo" class="founder-image">
-                            </div>
-                    <h3 class="founder-name">Jamie Shelley</h3>
-                    <p class="founder-title">APRN, CNM, IBCLC</p>
-                    <p class="founder-bio">
-                        Jamie is a certified nurse-midwife and lactation consultant with a deep commitment to whole-person and family-centered care. She works at Empowered Midwifery providing midwifery services rooted in shared decision-making and evidence-based practice. She's convinced that life is better lived in community than in isolation, which is why she co-founded The Birth Collective to build a space where families have access to knowledgeable, caring professionals and each other.
-                    </p>
-                    <p class="founder-bio" style="margin-top: 0.5rem;">
-                        <strong>Contact:</strong> <a href="/cdn-cgi/l/email-protection#e78d868a8e82a7828a978890829582838a8e83908e8182959ec984888a" style="color: var(--accent);"><span class="__cf_email__" data-cfemail="1c767d7175795c79716c736b796e79787175786b757a796e65327f7371">[email&#160;protected]</span></a>
-                    </p>
-                </div>
+               <div class="founder-profile">
+    <img src="TLN pic.jpg" alt="Jamie Shelley" class="founder-image">
+    <h3 class="founder-name">Jamie Shelley</h3>
+    <p class="founder-title">APRN, CNM, IBCLC</p>
+    <p class="founder-bio">
+        Jamie is a certified nurse-midwife and lactation consultant with a deep commitment to whole-person and family-centered care...
+    </p>
+</div>
             </div>
         </section>
     </div>
