@@ -74,6 +74,20 @@ const birthWorkers = [
         bio: 'Mom of two + L&D RN sharing simple, honest support for pregnancy, birth, and postpartum/motherhood. Co-founder of The Birth Collective.'
     },
     {
+        id: 10,
+        name: 'Hillary O\'Connor',
+        credentials: ['DPT'],
+        services: ['Pelvic Health PT', 'Pilates Instructor'],
+        categories: ['pelvic-health'],
+        phone: '(320) 262-7686',
+        email: 'thewellnessptdoc@gmail.com',
+        website: 'thewellnessptdoc.com',
+        facebook: 'https://www.facebook.com/thewellnesspt',
+        instagram: '@thewellnesspt',
+        address: '510 22nd Ave E. Suite 202A, Alexandria, MN 56308',
+        specialties: ['Pelvic floor physical therapy', 'Pregnancy and Postpartum Corrective Exercise Specialist', 'Classical Pilates instruction', 'Low back and hip pain', 'Postural Restoration (PRI)', 'Cupping therapy']
+    },
+    {
         id: 6,
         name: 'Jillian Klemek',
         credentials: ['DC', 'CACCP', 'DBB'],
