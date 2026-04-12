@@ -1,0 +1,113 @@
+const birthWorkers = [
+    {
+        id: 3,
+        name: 'Candi Ammermann',
+        credentials: [],
+        services: ['Doula', 'Perinatal Massage Therapist', 'Bodyworker', 'HypnoBirthing Instructor', 'Yoga Instructor'],
+        categories: ['doula'],
+        phone: '320-905-5964',
+        email: 'mammawisemn@gmail.com',
+        website: 'www.mammawisemn.com',
+        facebook: 'https://www.facebook.com/profile.php?id=61550658267914',
+        instagram: '@mammawiseinmn',
+        serviceArea: 'Willmar, Glenwood, Alexandria, Montevideo and surrounding communities',
+        specialties: ['Birth Doula (DONA certified)', 'Birth doula (since 2004)', 'Pre & perinatal massage therapy', 'Dynamic body balancing', 'Craniosacral therapy (CST)', 'HypnoBirthing instructor', 'Spinning Babies instructor', 'Body Ready Method', 'Body Ready Birth', 'Yoga instruction', 'Fourth Trimester Support Group Leader', 'Postpartum doula certification planned (April 2026)']
+    },
+    {
+        id: 7,
+        name: 'Leah Cruze',
+        credentials: ['DPT', 'PCES'],
+        services: ['Pelvic Health PT'],
+        categories: ['pelvic-health'],
+        phone: '320-445-0100',
+        email: 'leah@alexpt.net',
+        website: 'www.alexpt.net',
+        instagram: 'alexpt_56308',
+        facebook: 'Alex PT',
+        address: '591 Northside Dr. NE, Alexandria, MN 56308',
+        specialties: ['Prenatal and postpartum pelvic health', 'Pelvic pain/dyspareunia', 'Urinary and bowel dysfunction', 'Prolapse', 'Pre-surgical prehab', 'Post-surgical recovery']
+    },
+    {
+        id: 4,
+        name: 'Dental Health Associates',
+        team: [
+            { name: 'Coley Wagner', credentials: ['LDA', 'CLC'] },
+            { name: 'Dr. Scott Schmidt', credentials: ['DDS'] }
+        ],
+        services: ['Frenectomies', 'Pediatric Airway Support', 'Myofunctional Therapy', 'Lactation Services'],
+        categories: ['dentist'],
+        phone: '320-762-1551',
+        email: 'frontdesk3@dentalhealthmn.com',
+        website: 'dentalhealthmn.com',
+        address: '107 14th Ave E, Alexandria, MN 56308',
+        specialties: ['Infant/children/adult frenectomies', 'Pediatric airway support', 'Myofunctional therapy', 'Lactation services']
+    },
+    {
+        id: 1,
+        name: 'Allie Drexler',
+        credentials: ['RN'],
+        services: ['Prenatal Educator', 'L&D Nurse', 'Dancing for Birth Instructor'],
+        categories: ['educator'],
+        phone: '507-317-6583',
+        email: 'addrexler23@gmail.com',
+        website: 'stan.store/addrexler23',
+        instagram: '@addrexler23',
+        youtube: '@addrexler23',
+        facebook: 'Allie Drexler - Pregnancy, Birth, Motherhood: Steady over Stressed',
+        specialties: ['Prenatal education', 'L&D nursing', 'BLS certified', 'NRP certified', 'Dancing for Birth instructor'],
+        bio: 'Mom of two + L&D RN sharing simple, honest support for pregnancy, birth, and postpartum/motherhood. Co-founder of The Birth Collective.'
+    },
+    {
+        id: 6,
+        name: 'Jillian Klemek',
+        credentials: ['DC', 'CACCP', 'DBB'],
+        services: ['Chiropractor'],
+        categories: ['chiropractor'],
+        phone: '218-338-2494',
+        email: 'klemekchiro@gmail.com',
+        website: 'klemekchiropractic.com',
+        location: 'Parkers Prairie, MN',
+        specialties: ['Family chiropractic', 'Webster Technique', 'TMJ']
+    },
+    {
+        id: 2,
+        name: 'Brooke Peterson',
+        credentials: ['DC'],
+        services: ['Chiropractor'],
+        categories: ['chiropractor'],
+        phone: '320-409-1441',
+        email: null,
+        website: 'greenlakechiro.com',
+        instagram: 'greenlakechiropracticcenter',
+        specialties: ['Prenatal chiropractic care', 'Pediatric chiropractic care', 'Webster Technique certified', 'Family chiropractic', 'Holistic health approach'],
+        organization: 'Green Lake Chiropractic Center',
+        location: 'Spicer, MN'
+    },
+    {
+        id: 5,
+        name: 'Jamie Shelley',
+        credentials: ['APRN', 'CNM', 'IBCLC'],
+        services: ['Midwife', 'Lactation Consultant'],
+        categories: ['midwife'],
+        phone: '320-287-1531',
+        email: 'jamie@empoweredmidwifery.com',
+        website: 'empoweredmidwifery.com',
+        instagram: '@jamie.midwife',
+        organization: 'Empowered Midwifery',
+        address: '621 Hawthorne St., Alexandria, MN',
+        serviceArea: 'Home births within 90 minutes of Alexandria, MN',
+        specialties: ['Primary care for women with functional health approach', 'Prenatal care', 'Home birth', 'Postpartum care', 'Prenatal lactation consults', 'Lactation support group leader (The Milk Club)', 'Postpartum lactation visits (in-home, clinic, or telehealth)']
+    },
+    {
+        id: 8,
+        name: 'Krystina Weiss',
+        credentials: ['MS', 'LMFT', 'PMH-C'],
+        services: ['Licensed Marriage and Family Therapist', 'Perinatal Mental Health Specialist'],
+        categories: ['therapist'],
+        phone: '320-762-8851',
+        website: 'www.thevillagefamily.org/providers/krystina-weiss',
+        address: 'The Village Family Service Center, Alexandria, MN',
+        specialties: ['Perinatal and postpartum mental health (pregnancy through 1 year postpartum)', 'Individual therapy (ages birth through adulthood)', 'Family systems therapy', 'Parent-Child Interaction Therapy', 'Women\'s health and wellness', 'Mental health support for individuals and couples'],
+        serviceNotes: 'In-person and online services available. Accepts insurance.'
+    }
+];
