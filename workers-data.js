@@ -26,6 +26,7 @@ const birthWorkers = [
         instagram: '@empoweredmidwifery',
         organization: 'Empowered Midwifery and Wellness, LLC',
         address: '621 Hawthorne St, Alexandria, MN 56308',
+        serviceArea: 'Home births within 90 minutes of Alexandria, MN',
         specialties: ['Midwifery and homebirth services', 'Primary women\'s healthcare across the lifespan', 'Prenatal and postpartum care', 'VBAC support', 'Fertility and infertility evaluation', 'Hormonal imbalances and menstrual disorders', 'PCOS management', 'Natural Family Planning', 'Pregnancy after loss support', 'FEMM-trained healthcare provider', 'IV infusions and injections']
     },
     {
