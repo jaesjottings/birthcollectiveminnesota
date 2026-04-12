@@ -14,6 +14,21 @@ const birthWorkers = [
         specialties: ['Birth Doula (DONA certified)', 'Birth doula (since 2004)', 'Pre & perinatal massage therapy', 'Dynamic body balancing', 'Craniosacral therapy (CST)', 'HypnoBirthing instructor', 'Spinning Babies instructor', 'Body Ready Method', 'Body Ready Birth', 'Yoga instruction', 'Fourth Trimester Support Group Leader', 'Postpartum doula certification planned (April 2026)']
     },
     {
+        id: 9,
+        name: 'Ashley Brimer',
+        credentials: ['APRN', 'CNM'],
+        services: ['Midwife', 'Women\'s Health'],
+        categories: ['midwife'],
+        phone: '320-335-1709',
+        email: 'empoweredmidwifery@outlook.com',
+        website: 'empoweredmidwifery.com',
+        facebook: 'https://www.facebook.com/104905091796117',
+        instagram: '@empoweredmidwifery',
+        organization: 'Empowered Midwifery and Wellness, LLC',
+        address: '621 Hawthorne St, Alexandria, MN 56308',
+        specialties: ['Midwifery and homebirth services', 'Primary women\'s healthcare across the lifespan', 'Prenatal and postpartum care', 'VBAC support', 'Fertility and infertility evaluation', 'Hormonal imbalances and menstrual disorders', 'PCOS management', 'Natural Family Planning', 'Pregnancy after loss support', 'FEMM-trained healthcare provider', 'IV infusions and injections']
+    },
+    {
         id: 7,
         name: 'Leah Cruze',
         credentials: ['DPT', 'PCES'],
