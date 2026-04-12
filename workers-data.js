@@ -111,7 +111,7 @@ const birthWorkers = [
         organization: 'Empowered Midwifery',
         address: '621 Hawthorne St., Alexandria, MN',
         serviceArea: 'Home births within 90 minutes of Alexandria, MN',
-        specialties: ['Primary care for women with functional health approach', 'Prenatal care', 'Home birth', 'Postpartum care', 'Prenatal lactation consults', 'Lactation support group leader (The Milk Club)', 'Postpartum lactation visits (in-home, clinic, or telehealth)']
+        specialties: ['Primary care for women with functional health approach', 'Prenatal care', 'Home birth', 'Postpartum care', 'VBAC support', 'IV infusions', 'Prenatal lactation consults', 'Lactation support group leader (The Milk Club)', 'Postpartum lactation visits (in-home, clinic, or telehealth)']
     },
     {
         id: 8,
