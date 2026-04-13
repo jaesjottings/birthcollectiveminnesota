@@ -33,7 +33,7 @@ const birthWorkers = [
         id: 7,
         name: 'Leah Cruze',
         credentials: ['DPT', 'PCES'],
-        services: ['Pelvic Health PT'],
+        services: ['Pelvic Floor PT'],
         categories: ['pelvic-health'],
         phone: '320-445-0100',
         email: 'leah@alexpt.net',
@@ -77,7 +77,7 @@ const birthWorkers = [
         id: 10,
         name: 'Hillary O\'Connor',
         credentials: ['DPT'],
-        services: ['Pelvic Health PT', 'Pilates Instructor'],
+        services: ['Pelvic Floor PT', 'Pilates Instructor'],
         categories: ['pelvic-health'],
         phone: '(320) 262-7686',
         email: 'thewellnessptdoc@gmail.com',
@@ -85,7 +85,7 @@ const birthWorkers = [
         facebook: 'https://www.facebook.com/thewellnesspt',
         instagram: '@thewellnesspt',
         address: '510 22nd Ave E. Suite 202A, Alexandria, MN 56308',
-        specialties: ['Pelvic floor physical therapy', 'Pregnancy and Postpartum Corrective Exercise Specialist', 'Classical Pilates instruction', 'Low back and hip pain', 'Postural Restoration (PRI)', 'Cupping therapy']
+        specialties: ['Pelvic floor physical therapy', 'Prenatal and postpartum pelvic health', 'Pregnancy and Postpartum Corrective Exercise Specialist', 'Classical Pilates instruction', 'Low back and hip pain', 'Postural Restoration (PRI)', 'Cupping therapy']
     },
     {
         id: 6,
