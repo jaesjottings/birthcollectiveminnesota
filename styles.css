@@ -310,6 +310,7 @@ nav {
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
+    margin-bottom: 2rem;
 }
 
 .worker-card:hover {
@@ -1467,7 +1468,7 @@ footer a:hover {
     }
 
     .worker-card {
-        margin: 0 auto;
+        margin: 0 auto 2rem auto;
     }
 
     .form-container {
