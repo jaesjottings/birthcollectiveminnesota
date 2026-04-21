@@ -5,7 +5,7 @@ const eventsData = [
         date: '2026-04-23',
         dayOfWeek: 'Thursday',
         time: '6:00 PM - 8:00 PM',
-        location: '303 22nd Ave W #103, Alexandria, MN',
+        location: '510 22nd Ave E Suite 202A, Alexandria, MN',
         description: 'Join us for our quarterly community gathering! Connect with expectant parents, new families, and birth professionals. Share birth stories, learn from one another, and build your village. Light refreshments provided.',
         organizer: 'The Birth Collective',
         type: 'birth-collective',
