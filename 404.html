@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script>
+        // Store the intended path and redirect to the root.
+        // index.html will read it from sessionStorage and navigate to the right page.
+        sessionStorage.setItem('redirectPath', location.pathname);
+        window.location.replace('/');
+    </script>
+</head>
+<body></body>
+</html>

@@ -577,8 +577,21 @@ function renderRoadmap() {
     timeline.innerHTML += resourcesAtBottom;
 }
 
+// Route map: pageId → URL path
+const routes = {
+    home:    '/',
+    workers: '/workers',
+    roadmap: '/roadmap',
+    events:  '/events',
+    about:   '/about',
+    contact: '/contact'
+};
+
+// Reverse map: URL path → pageId
+const pathToPage = Object.fromEntries(Object.entries(routes).map(([k, v]) => [v, k]));
+
 // Page navigation
-function showPage(pageId) {
+function showPage(pageId, updateHistory = true) {
     document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
     document.getElementById(pageId).classList.add('active');
     document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
@@ -586,7 +599,17 @@ function showPage(pageId) {
     if (activeLink) activeLink.classList.add('active');
     document.querySelector('.nav-links').classList.remove('mobile-active');
     window.scrollTo(0, 0);
+    if (updateHistory) {
+        const path = routes[pageId] || '/';
+        history.pushState({ pageId }, '', path);
+    }
 }
+
+// Handle browser back/forward
+window.addEventListener('popstate', function(e) {
+    const pageId = e.state?.pageId || pathToPage[location.pathname] || 'home';
+    showPage(pageId, false);
+});
 
 // Mobile menu
 function toggleMobileMenu() {
@@ -626,6 +649,15 @@ document.addEventListener('DOMContentLoaded', function() {
     renderEvents();
     renderWorkers();
     renderRoadmap();
+
+    // Read URL on direct load (including 404.html redirect via sessionStorage)
+    const redirectPath = sessionStorage.getItem('redirectPath');
+    if (redirectPath) {
+        sessionStorage.removeItem('redirectPath');
+        history.replaceState(null, '', redirectPath);
+    }
+    const startPage = pathToPage[location.pathname] || 'home';
+    showPage(startPage, false);
     
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
