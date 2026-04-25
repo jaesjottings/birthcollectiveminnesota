@@ -130,6 +130,19 @@ const birthWorkers = [
         specialties: ['Primary care for women with functional health approach', 'Prenatal care', 'Home birth', 'Postpartum care', 'VBAC support', 'IV infusions', 'Prenatal lactation consults', 'Lactation support group leader (The Milk Club)', 'Postpartum lactation visits (in-home, clinic, or telehealth)']
     },
     {
+        id: 11,
+        name: 'Amy Swart',
+        credentials: ['MSW', 'LICSW', 'PMH-C'],
+        services: ['Licensed Therapist', 'Perinatal Mental Health Specialist'],
+        categories: ['therapist'],
+        phone: '320-238-9119',
+        website: 'nurturewomenstherapy.com',
+        facebook: 'https://www.facebook.com/nurturewomenstherapy',
+        instagram: '@nurturewomenstherapy',
+        address: '1103 Broadway St. Unit 102, Alexandria, MN 56308',
+        specialties: ['Perinatal mental health (pregnancy, postpartum, motherhood transitions)', 'Trauma recovery and healing', 'Depression and anxiety', 'Grief and loss', 'EMDR', 'Dialectical Behavior Therapy (DBT)', 'Cognitive-Behavioral Therapy (CBT)']
+    },
+    {
         id: 8,
         name: 'Krystina Weiss',
         credentials: ['MS', 'LMFT', 'PMH-C'],
