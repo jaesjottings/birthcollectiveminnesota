@@ -123,6 +123,7 @@ const birthWorkers = [
         email: 'jamie@empoweredmidwifery.com',
         website: 'empoweredmidwifery.com',
         instagram: '@jamie.midwife',
+        bornbir: 'bornbir.com/jamie-shelley',
         organization: 'Empowered Midwifery',
         address: '621 Hawthorne St., Alexandria, MN',
         serviceArea: 'Home births within 90 minutes of Alexandria, MN',

@@ -292,6 +292,7 @@ function renderWorkers() {
                 ${worker.facebook ? `<p>📘 <a href="${worker.facebook.startsWith('http') ? worker.facebook : 'https://www.facebook.com/' + worker.facebook.replace(/\s+/g, '')}" target="_blank">${worker.facebook.includes('facebook.com') ? 'Facebook' : worker.facebook}</a></p>` : ''}
                 ${worker.instagram ? `<p>📸 <a href="${worker.instagram.startsWith('http') ? worker.instagram : 'https://instagram.com/' + worker.instagram.replace('@', '')}" target="_blank">${worker.instagram.includes('instagram.com') ? 'Instagram' : worker.instagram}</a></p>` : ''}
                 ${worker.youtube ? `<p>🎥 <a href="https://youtube.com/${worker.youtube.replace('@', '')}" target="_blank">${worker.youtube}</a></p>` : ''}
+                ${worker.bornbir ? `<p>🤱 <a href="https://${worker.bornbir}" target="_blank">${worker.bornbir}</a></p>` : ''}
             </div>
             ${worker.bio ? `<p style="margin-top: 1rem; font-size: 0.95rem; color: var(--text-light); font-style: italic;">${worker.bio}</p>` : ''}
         </div>
