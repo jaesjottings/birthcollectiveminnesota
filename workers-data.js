@@ -143,6 +143,18 @@ const birthWorkers = [
         specialties: ['Perinatal mental health (pregnancy, postpartum, motherhood transitions)', 'Trauma recovery and healing', 'Depression and anxiety', 'Grief and loss', 'EMDR', 'Dialectical Behavior Therapy (DBT)', 'Cognitive-Behavioral Therapy (CBT)']
     },
     {
+        id: 12,
+        name: 'Cali Tessmer',
+        credentials: [],
+        services: ['Doula', 'Placenta Encapsulation'],
+        categories: ['doula'],
+        phone: '507-696-5863',
+        email: 'motherhooddoulamn@gmail.com',
+        website: 'www.motherhooddoulamn.com',
+        serviceArea: '60 mile radius from Cold Spring, MN (willing to travel ~15 miles beyond)',
+        specialties: ['Birth doula', 'Postpartum doula (limited availability)', 'Placenta encapsulation', 'DONA certified', 'Body Ready Method (BRM) Active Pro']
+    },
+    {
         id: 8,
         name: 'Krystina Weiss',
         credentials: ['MS', 'LMFT', 'PMH-C'],
