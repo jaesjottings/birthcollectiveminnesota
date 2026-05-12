@@ -2,18 +2,20 @@ const eventsData = [
     {
         id: 1,
         title: 'The Birth Collective Alexandria - Quarterly Gathering',
-        date: '2026-04-23',
-        dayOfWeek: 'Thursday',
+        date: '2026-06-16',
+        dayOfWeek: 'Tuesday',
         time: '6:00 PM - 8:00 PM',
-        location: '510 22nd Ave E Suite 202A, Alexandria, MN',
-        description: 'Join us for our quarterly community gathering! Connect with expectant parents, new families, and birth professionals. Share birth stories, learn from one another, and build your village. Light refreshments provided.',
+        location: 'Rauk Dentistry, 510 22nd Ave E Suite 601, Alexandria, MN 56308',
+        description: 'Join us for our quarterly community gathering! This month\'s topic is POSTPARTUM. Connect with expectant parents, new families, and birth professionals. Share birth stories, learn from one another, and build your village. Light refreshments provided.',
         organizer: 'The Birth Collective',
         type: 'birth-collective',
         category: 'community event',
         details: [
             'Free to attend',
             'Open to parents and birth workers',
-            'Tea, coffee, and light refreshments'
+            'Topic: Postpartum',
+            'Tea, coffee, and light refreshments',
+            'New location: Rauk Dentistry (across the parking lot from Studio She)'
         ],
         contact: null,
         facebook: 'https://www.facebook.com/events/1451454860102555?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22group%22%7D]%7D',
