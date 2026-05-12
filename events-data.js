@@ -1,7 +1,7 @@
 const eventsData = [
     {
         id: 1,
-        title: 'The Birth Collective Alexandria - Quarterly Gathering',
+        title: 'The Birth Collective Alexandria',
         date: '2026-06-16',
         dayOfWeek: 'Tuesday',
         time: '6:00 PM - 8:00 PM',
@@ -14,8 +14,7 @@ const eventsData = [
             'Free to attend',
             'Open to parents and birth workers',
             'Topic: Postpartum',
-            'Tea, coffee, and light refreshments',
-            'New location: Rauk Dentistry (across the parking lot from Studio She)'
+            'Tea, coffee, and light refreshments'
         ],
         contact: null,
         facebook: 'https://www.facebook.com/events/1451454860102555?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22group%22%7D]%7D',
