@@ -6,7 +6,7 @@ const eventsData = [
         dayOfWeek: 'Tuesday',
         time: '6:00 PM - 8:00 PM',
         location: 'Rauk Dentistry, 510 22nd Ave E Suite 601, Alexandria, MN 56308',
-        description: 'Join us for our quarterly community gathering! This month\'s topic is POSTPARTUM. Connect with expectant parents, new families, and birth professionals. Share birth stories, learn from one another, and build your village. Light refreshments provided.',
+        description: 'Join us for our quarterly community gathering! This month\'s topic is POSTPARTUM.',
         organizer: 'The Birth Collective',
         type: 'birth-collective',
         category: 'community event',
