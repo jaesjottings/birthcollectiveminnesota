@@ -14,7 +14,7 @@ const eventsData = [
             'Free to attend',
             'Open to parents and birth workers',
             'Topic: Postpartum',
-            'Tea, coffee, and light refreshments'
+            'Light refreshments'
         ],
         contact: null,
         facebook: 'https://www.facebook.com/events/1451454860102555?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22group%22%7D]%7D',
