@@ -114,6 +114,28 @@ const birthWorkers = [
         location: 'Spicer, MN'
     },
     {
+        id: 13,
+        name: 'Rauk Dentistry',
+        team: [
+            { name: 'Dr. Kim Rauk', credentials: ['DDS'] },
+            { name: 'Sara Hoffman', credentials: ['RN', 'CBC'] }
+        ],
+        services: ['Functional Dental Medicine', 'Myofunctional Therapy', 'Lip & Tongue Tie Release', 'Lactation Services', 'Infant Feeding Education'],
+        categories: ['dentist'],
+        phone: '320-763-5556',
+        email: 'Admin@RaukDentistry.com',
+        website: 'www.RaukDentistry.com',
+        address: '510 22nd Avenue, Suite 601, Alexandria, MN 56308',
+        specialties: [
+            'Multidisciplinary physical functional dental medicine (whole-body approach: dentistry, movement, breathing, and more)',
+            'Craniofacial respiratory complex (CFRC) care for children and adults',
+            'Myofunctional therapy / orofacial myology',
+            'Lip and tongue tie release for infants, children, and adults',
+            'Lactation services',
+            'Infant feeding education and bottle-feeding guidance'
+        ]
+    },
+    {
         id: 5,
         name: 'Jamie Shelley',
         credentials: ['APRN', 'CNM', 'IBCLC'],
