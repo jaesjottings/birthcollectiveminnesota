@@ -181,5 +181,25 @@ const eventsData = [
         ],
         facebook: 'https://www.facebook.com/events/1300583421170674/1508241993738148?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22home%22%7D%2C%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22search%22%7D]%2C%22ref_notif_type%22%3Anull%7D',
         featured: false
+    },
+    {
+        id: 10,
+        title: 'HypnoBirthing Class Series',
+        date: '2026-07-06',
+        dayOfWeek: 'Monday',
+        time: '5:30 PM - 8:30 PM',
+        location: 'Virtual (Zoom)',
+        description: 'Every birth story begins long before labor starts. It begins with how you prepare, what you believe, and the support you surround yourself with. HypnoBirthing offers parents tools for calm, confidence, and connection — during birth and beyond. From relaxation and breathing to informed decision-making, these skills support a more empowered birth experience.',
+        category: 'class',
+        type: 'education',
+        details: [
+            '5-week series, 3-hour classes',
+            'Mondays: July 6, 13, 20, 27 and August 3',
+            'Virtual over Zoom — class size limited'
+        ],
+        hostedBy: 'Candi Ammermann, MammaWise MN',
+        additionalDates: 'July 13, 20, 27 and August 3, 2026',
+        signupUrl: 'https://lp.constantcontactpages.com/ev/reg/yjkfk4t/lp/61a05678-23bb-48cc-90e9-c3ba20b91647',
+        pinned: false
     }
 ];
