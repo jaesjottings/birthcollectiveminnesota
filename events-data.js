@@ -197,7 +197,7 @@ const eventsData = [
             'Mondays: July 6, 13, 20, 27 and August 3',
             'Virtual over Zoom — class size limited'
         ],
-        hostedBy: 'Candi Ammermann, MammaWise MN',
+        hostedBy: 'Candi Ammermann, MammaWise',
         additionalDates: 'July 13, 20, 27 and August 3, 2026',
         signupUrl: 'https://lp.constantcontactpages.com/ev/reg/yjkfk4t/lp/61a05678-23bb-48cc-90e9-c3ba20b91647',
         pinned: false

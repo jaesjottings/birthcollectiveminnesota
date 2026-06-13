@@ -182,10 +182,12 @@ const birthWorkers = [
         credentials: ['MS', 'LMFT', 'PMH-C'],
         services: ['Licensed Marriage and Family Therapist', 'Perinatal Mental Health Specialist'],
         categories: ['therapist'],
-        phone: '320-762-8851',
-        website: 'www.thevillagefamily.org/providers/krystina-weiss',
-        address: 'The Village Family Service Center, Alexandria, MN',
-        specialties: ['Perinatal and postpartum mental health (pregnancy through 1 year postpartum)', 'Individual therapy (ages birth through adulthood)', 'Family systems therapy', 'Parent-Child Interaction Therapy', 'Women\'s health and wellness', 'Mental health support for individuals and couples'],
-        serviceNotes: 'In-person and online services available. Accepts insurance.'
+        phone: '320-413-8339',
+        email: 'info@theconnectioncotherapy.com',
+        website: 'theconnectioncotherapy.com',
+        instagram: '@theconnectioncotherapy',
+        organization: 'The Connection Co Therapy',
+        address: '510 22nd Ave E Suite 202A, Alexandria, MN 56308',
+        specialties: ['Anxiety and intrusive thoughts', 'Depression and mood regulation', 'Trauma and birth trauma', 'Grief, loss, and miscarriage', 'Self-esteem', 'Infant and early childhood mental health', 'Parenting and couples therapy', 'EMDR']
     }
 ];
