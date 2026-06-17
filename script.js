@@ -104,12 +104,12 @@ function renderEvents() {
     // Expand recurring events
     const allEvents = expandRecurringEvents(eventsData);
     
-    // Filter to only show events within 2 months
+    // Filter to only show events within 2 months (pinned events always show)
     const today = new Date();
     const twoMonthsFromNow = new Date(today.getFullYear(), today.getMonth() + 2, today.getDate());
     const futureEvents = allEvents.filter(e => {
         const eventDate = new Date(e.date + 'T00:00:00Z');
-        return eventDate >= today && eventDate <= twoMonthsFromNow;
+        return eventDate >= today && (e.pinned || eventDate <= twoMonthsFromNow);
     });
     
     // Separate pinned and regular events
