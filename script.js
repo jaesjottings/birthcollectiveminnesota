@@ -36,9 +36,9 @@ function expandRecurringEvents(events) {
             }
         }
         
-        // Handle Birth & Beyond - Every other 1st Thursday (June, August, October, etc.)
+        // Handle Birth & Beyond - 1st Thursday of select months
         if (event.recurrence === 'birth-beyond') {
-            const months = [5, 7, 9, 11]; // June, August, October, December (0-indexed)
+            const months = [5, 8, 9, 11]; // June, September, October, December (0-indexed)
             months.forEach(month => {
                 const firstThursday = getNthWeekday(2026, month, 1, 4); // 1st Thursday
                 if (firstThursday >= today) {
