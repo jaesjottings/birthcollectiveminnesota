@@ -2,8 +2,8 @@ const eventsData = [
     {
         id: 1,
         title: 'The Birth Collective Alexandria',
-        date: '2026-08-18',
-        dayOfWeek: 'Tuesday',
+        date: '2026-09-17',
+        dayOfWeek: 'Thursday',
         time: '6:00 PM - 8:00 PM',
         location: 'Rauk Dentistry, 510 22nd Ave E Suite 601, Alexandria, MN 56308',
         description: 'Come join the group conversation, ask questions, meet new friends, and find support.',
@@ -13,7 +13,7 @@ const eventsData = [
         details: [
             'Free to attend',
             'Open to parents and birth workers',
-            'Topic: Birth Stories — come share yours and hear others!',
+            'Topic: Oral Ties — led by Dr. Kim Rauk',
             'Light refreshments'
         ],
         contact: null,
