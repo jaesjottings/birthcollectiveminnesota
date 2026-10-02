@@ -87,7 +87,7 @@ const eventsData = [
     {
         id: 5,
         title: 'Alomere Prenatal Class',
-        date: '2026-05-13',
+        date: '2026-11-11',
         dayOfWeek: 'Wednesday',
         time: '6:00 PM - 8:00 PM',
         location: 'Alomere Hospital, 111 17th Ave East, Alexandria, MN',
@@ -96,7 +96,7 @@ const eventsData = [
         category: 'class',
         type: 'prenatal',
         details: [
-            'Two-week class: May 13 and 20',
+            'Two-week class: November 11 and 18',
             'Ask questions about labor and delivery',
             'What to expect at the hospital',
             'Tour of labor and delivery department',
